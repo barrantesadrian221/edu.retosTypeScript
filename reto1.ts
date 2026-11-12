@@ -20,5 +20,3 @@ const usuarioNoValido: UsuarioAPI = {
     //Error ya que no deberia de permitir un rol que no este definido en la interfaz
     rol:'maquinote'
 };
-console.log(usuarioValido);
-console.log(usuarioNoValido);
