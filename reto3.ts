@@ -6,5 +6,7 @@ class ProductComponent {
     private precioBase: number,
   ) {}
 
- 
+  obtenerPrecioFinal(): number {
+    return this.precioBase * (1 + this.iva);
+  }
 }
